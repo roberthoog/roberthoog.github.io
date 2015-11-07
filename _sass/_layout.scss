@@ -1,6 +1,14 @@
+/** color scheme
+BG: HEX: #95c6ff
+HEX: #b195ff
+HEX: #95ffce
+R: 149  G: 255  B: 206
+**/
+
 /**
  * Site header
  */
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -11,16 +19,29 @@
 }
 
 .site-title {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
+    margin: 75% 0 0 10%;
     float: left;
+    text-transform: uppercase;
+    color: $site-title;
+    }
+
+    .site-sub-title {
+            font-size: 22px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin: 35% 0 0 10%;
+    float: left;
+    color: $brand-color;
 }
 
+
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
+    margin-top: 70%;
 
     .menu-icon {
         display: none;
@@ -86,9 +107,10 @@
 /**
  * Site footer
  */
-.site-footer {
+.site-footer, .push {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    height:55px;
 }
 
 .footer-heading {
@@ -110,10 +132,44 @@
 }
 
 .footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
 
 @include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
 
 @include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
