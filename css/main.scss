@@ -1,27 +1,23 @@
 @charset "utf-8";
+
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 
-
-
 // Our variables
-$base-font-family: noticia-text, serif;
-$base-font-size:   26px;
+$base-font-family: Verdana, Arial, sans-serif;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.6;
-//$site-title-color: #95ffce;
+$base-line-height: 1.5;
+
 $spacing-unit:     30px;
 
-$text-color:       #000;
-//$text-shadow:      text-shadow 1px 1px 10px #111;
+$text-color:       #111;
+$background-color: #2a7ae2;
+$brand-color:      #000;
 
-$background-color: #95c6ff;
-$brand-color:      #fff;
-//$site-sub-title:   #fff;
-$site-title:       #b195ff;
-$grey-color:       #828282;
+$grey-color:       #222;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
