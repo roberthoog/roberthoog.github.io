@@ -20,11 +20,11 @@ R: 149  G: 255  B: 206
 }
 
 .site-title {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 800;
-    line-height: 56px;
-    letter-spacing: 1px;
-    margin: 75% 90% 0 2%;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin: 75% 90% 0 0;
     text-transform: uppercase;
     color: $site-title;
     display: block;
@@ -117,11 +117,15 @@ R: 149  G: 255  B: 206
 /**
  * Site footer
  */
+footer {
+  font-size:10px;
+}
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     height:50px;
     width: 100%;
+
 }
 .site-footer, .wrapper:after {
     height: 50px;
@@ -130,9 +134,13 @@ R: 149  G: 255  B: 206
     bottom:0
 }
 .site-footer {
-    background: orange;
-.footer-heading {
-    font-size: 18px;
+  background: orange;
+  font-family: $footer-font-family;
+  font-size: 12px;
+
+}
+  .footer-heading {
+    font-size: 12px;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -143,8 +151,9 @@ R: 149  G: 255  B: 206
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 11px;
     color: $grey-color;
+  background-color: #fff;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -158,11 +167,13 @@ R: 149  G: 255  B: 206
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
+
 }
 
 .footer-col-3 {
