@@ -8,24 +8,23 @@ R: 149  G: 255  B: 206
 /**
  * Site header
  */
-//
-//.site-header {
-//    border-top: 5px solid $grey-color-dark;
-//    border-bottom: 1px solid $grey-color-light;
-//    min-height: 56px;
-//    height:100px;
-//
-//    // Positioning context for the mobile navigation icon
-//    position: absolute;
-//    top: 0;
-//}
+
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: absolute;
+    top: 0;
+}
 
 .site-title {
-    font-size: 60px;
+    font-size: 30px;
     line-height: 56px;
     letter-spacing: 1px;
-    text-align: left;
-    text-transform: lowercase;
+    text-align: center;
+    text-transform: uppercase;
     color: $site-title;
 
     }
