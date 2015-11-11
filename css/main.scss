@@ -7,16 +7,14 @@
 
 // Our variables
 $base-font-family: 'Open Sans Condensed',Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.8;
 
 $spacing-unit:     30px;
-
-$text-color:       #fff;
+$text-color:       #222;
 $background-color: #95c6ff;
 $brand-color:      #12000A;
-$site-sub-title:   #b195ff;
 $site-title:       #b195ff;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

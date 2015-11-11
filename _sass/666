@@ -1,0 +1,54 @@
+---
+layout: post
+title:  humming along to the song... "are we human..." by The Killers
+date:   2015-11-09 16:47:13
+categories: jekyll update
+---
+## Studpid headlies aside...
+
+... This here piece of text is about the humans.txt, robots. and a few other answers I'll ask as this work develops.
+But lets start with the always entertaining robots.
+##What do you think of pre-compiling your CSS?
+## Compare to regular CSS
+## Which techniques did you use?
+## Pros and cons?
+
+What do you think of static site generators?
+What type of projects are they suitable for?
+
+
+ ### What is robots.txt
+ What is robots.txt and how have you configure it for your site?
+ Robots.txt is  a simple text file placed on the server containing instructions for search enginge crawlers. Perhaps you don’t want your site indexed at all, or certain pages or folders, like cgi-bin full of scripts. The file must be placed in the the root directory of the web server.
+
+###
+ What is humans.txt and how have you configure it for your site?
+ Another text file with information on the website. Who made it? What team(s) were a part of the creation and when was the last update? Who gets credited and for what? How do I reach them and are they on Twitter? Is the geek behind the navigation system married to a cousin?
+ It’s a way to humanize a site and get to know a bit more about the creators and what made the website possible
+ besides frameworks, IDEs and whatnot. // TODO: How have I configured my oen
+
+
+
+
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = localhost:4000; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//shadowbound.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

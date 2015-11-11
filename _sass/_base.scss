@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'ironstrikeregular';
+    src: url('../fontsIronstrike-Regular-webfont.eot');
+    src: url('../fontsIronstrike-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Ironstrike-Regular-webfont.woff2') format('woff2'),
+    url('../fonts/Ironstrike-Regular-webfont.woff') format('woff'),
+    url('../fonts/Ironstrike-Regular-webfont.ttf') format('truetype'),
+    url('../fonts/Ironstrike-Regular-webfont.svg#ironstrikeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /**
  * Reset some basic elements
  */
@@ -47,7 +58,9 @@ img {
     vertical-align: middle;
 }
 
-
+h1 {
+    font-family: Ironstrike-Regular;
+}
 
 /**
  * Figures

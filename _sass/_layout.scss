@@ -9,40 +9,22 @@ R: 149  G: 255  B: 206
  * Site header
  */
 
-.site-header {
-    border-top: 5px solid $grey-color-dark;
+header.site-header {
+    border-top: 15px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: absolute;
-    top: 0;
-}
-
-.site-title {
-    font-size: 30px;
-    line-height: 56px;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-    color: $site-title;
-
+    min-height: 200px;
+    width:100%;
     }
 
-    .site-sub-title {
-            font-size: 22px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin: 35% 0 0 10%;
-    float: left;
-    color: $brand-color;
+.site-title {
+    font-family: "ironstrikeregular";
+    float: right;
 }
 
 
 .site-nav {
     float: left;
-    line-height: 56px;
-    margin-top: 70%;
+    display: inline;
 
     .menu-icon {
         display: none;
@@ -183,13 +165,16 @@ R: 149  G: 255  B: 206
 .page-content {
     //padding: $spacing-unit 0;
     padding: 0 10px 10px 10px;
+    font-family: "ironstrikeregular";
+
 }
 .page-heading {
     font-size: 20px;
+
 }
 
 .post-list {
-    margin: 10px 0 10px 0;
+    margin: 150px 0 10px 0;
     list-style: none;
 
     > li {
@@ -218,11 +203,13 @@ R: 149  G: 255  B: 206
 }
 
 .post-title {
-    padding-top: 10px;
-    font-size: 42px;
-    letter-spacing: 2px;
-    line-height: 1;
+    padding: 50px 0px;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    line-height: 1.4;
     font-weight: 700;
+    font-family: "ironstrikeregular";
+
 
     @include media-query($on-laptop) {
         font-size: 36px;
