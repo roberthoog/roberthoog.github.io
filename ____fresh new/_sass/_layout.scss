@@ -10,27 +10,25 @@ R: 149  G: 255  B: 206
  */
 * {;
 }
-.site-header {
-    height: 300px;
+header.site-header {
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 350px;
     width:100%;
-    position: relative;
+    background-position: center;
+    background-position: cover;
+    background: url("/img/header.bg");
+
+
     }
 
 .site-title {
     font-family: "ironstrikeregular";
-    float: left;
+    float: right;
 }
 
-.header-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
 
 .site-nav {
-    float: right;
+    float: left;
     display: inline;
 
     .menu-icon {
