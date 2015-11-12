@@ -59,7 +59,7 @@ img {
 }
 
 h1 {
-    font-family: Ironstrike-Regular;
+    font-family: $font-stack;
 }
 
 /**
@@ -170,11 +170,11 @@ form {
     border-width: 2px;
     color: #222222;
     font-size: 14px;
-    margin: 0px;
+    margin: 0;
     padding: 20px;
 }
 .content{
-    margin: 0px;
+    margin: 0;
 }
 .form label{
     color: #222222;

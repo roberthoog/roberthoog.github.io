@@ -17,7 +17,7 @@ R: 149  G: 255  B: 206
     }
 
 .site-title {
-    font-family: "ironstrikeregular";
+    font-family:$font-stack;
     float: left;
 }
 
@@ -32,7 +32,7 @@ R: 149  G: 255  B: 206
 .site-nav {
     float: right;
     display: inline;
-
+    z-index: 999;
     .menu-icon {
         display: none;
     }
@@ -55,6 +55,7 @@ R: 149  G: 255  B: 206
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        z-index: 999;
 
         .menu-icon {
             display: block;
@@ -172,7 +173,7 @@ R: 149  G: 255  B: 206
 .page-content {
     //padding: $spacing-unit 0;
     padding: 0 10px 10px 10px;
-    font-family: "ironstrikeregular";
+    font-family: $font-stack;
 
 }
 .page-heading {
@@ -193,7 +194,7 @@ R: 149  G: 255  B: 206
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
-    border-top: 1px dashed #000;
+
 }
 
 .post-link {
@@ -201,7 +202,10 @@ R: 149  G: 255  B: 206
     font-size: 24px;
 }
 
-
+.date-image {
+    width: 25px;
+    padding-right: 3px;
+}
 
 /**
  * Posts
@@ -216,7 +220,7 @@ R: 149  G: 255  B: 206
     letter-spacing: 1.2px;
     line-height: 1.4;
     font-weight: 700;
-    font-family: "ironstrikeregular";
+    font-family: $font-stack;
     -webkit-transition: all .5s ease-in;
     -moz-transition: all .5s ease-in;
     -ms-transition: all .5s ease-in;
