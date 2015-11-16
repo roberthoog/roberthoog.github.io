@@ -14,18 +14,14 @@ header.site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 350px;
     width:100%;
-    background-position: center;
     background-position: cover;
     background: url("/img/header.bg");
-
-
-    }
+   }
 
 .site-title {
-    font-family: "ironstrikeregular";
+    font-family: $font-stack;
     float: right;
 }
-
 
 .site-nav {
     float: left;
@@ -170,7 +166,7 @@ header.site-header {
 .page-content {
     //padding: $spacing-unit 0;
     padding: 0 10px 10px 10px;
-    font-family: "ironstrikeregular";
+    font-family: $font-stack
 
 }
 .page-heading {
@@ -189,9 +185,10 @@ header.site-header {
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: 11px;
     color: $grey-color;
-    border-top: 1px dashed #000;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
 }
 
 .post-link {
@@ -209,18 +206,13 @@ header.site-header {
 }
 
 .post-title {
-    padding: 50px 0px;
+    padding: 50px 0;
     font-size: 50px;
     letter-spacing: 1.2px;
     line-height: 1.4;
     font-weight: 700;
-    font-family: "ironstrikeregular";
-    -webkit-transition: all .5s ease-in;
-    -moz-transition: all .5s ease-in;
-    -ms-transition: all .5s ease-in;
-    -o-transition: all .5s ease-in;
-    transition: all 1.5s ease-in;
-
+    font-family: $font-stack;
+    
     @include media-query($on-laptop) {
         font-size: 36px;
     }
