@@ -59,7 +59,7 @@ img {
 }
 
 h1 {
-    font-family: $font-stack;
+    font-family: Ironstrike-Regular;
 }
 
 /**
@@ -97,11 +97,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
-h1 {text-shadow: 2px 2px 1px #fff}
-h2 {
-    color: #6A3900;
-    text-shadow: 1px 1px 1px #fff
-}
+
 
 
 /**
@@ -168,53 +164,6 @@ pre {
     }
 }
 
-form {
-    max-width: 75%;
-    min-width: 50%;
-    border-width: 2px;
-    color: #222222;
-    font-size: 14px;
-    margin: 0;
-    padding: 20px;
-}
-.content{
-    margin: 0;
-}
-.form label{
-    color: #222222;
-    font-size: 14px;
-    display: block;
-}
-.form div{
-    display: block;
-}
-.form input, form textarea, form select{
-    border-width: 1px;
-    border-style: dotted;
-    border-color: #666666;
-    border-radius: 1px;
-    padding: 3px;
-    width: 50%;
-}
-
-.intro{
-    margin-bottom: 10px;
-}
-.clear{
-    clear: both;
-}
-.form textarea{
-    height: 116px;
-    width: 50%;
-}
-.form input[type=submit]{
-    width: 20%;
-    background-color: #CCCCCC;
-    color: #222222;
-}
-.field{
-    margin-bottom: 20px;
-}
 
 
 /**
