@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ironstrikeregular';
-    src: url('../fontsIronstrike-Regular-webfont.eot');
-    src: url('../fontsIronstrike-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/Ironstrike-Regular-webfont.eot');
+    src: url('../fonts/Ironstrike-Regular-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Ironstrike-Regular-webfont.woff2') format('woff2'),
     url('../fonts/Ironstrike-Regular-webfont.woff') format('woff'),
     url('../fonts/Ironstrike-Regular-webfont.ttf') format('truetype'),
@@ -59,7 +59,8 @@ img {
 }
 
 h1 {
-    font-family: Ironstrike-Regular;
+    font-family: $font-stack;
+
 }
 
 /**
@@ -94,10 +95,15 @@ li {
 /**
  * Headings
  */
+h1, h2  {
+    color: #6A3900;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
-
 
 
 /**

@@ -8,19 +8,29 @@ categories: techie talk
 
 ... This here piece of text is about the humans.txt, robots. and a few other answers I'll answer as this work develops.
 But lets start with the always entertaining robots.
+
 ##What do you think of pre-compiling your CSS?
-TODO     
+Still a bit unused to the idea but the ability to have many pieces og css, such as onbe for text one for columns etc 
+is a neat idea. Helt you keep iy focused and lessens the risk of mistakes.
+     
 ## Compare to regular CSS
-TODO
+Mush more complicated and sophisticated with the variables and whatnot. I absolutely loved CSS when it came out in the
+ 19902 because I had been doing magazine layout before so I was used to place things wherever I wanted.
+ 
 ## Which techniques did you use?
-/TODO:
+Just tried a few variables. $font-stack for one.
+
 ## Pros and cons?
-TODO:
+The flexibility, the re-usability and the beauty of it!
+
+The setup. Not everyone is in school and really MUST do it so 
+they might turn their backs.
+
 ##What do you think of static site generators?
-Todo
+Excellet! Not needing a databade is, I think, the number #1 priority I would go for it.
 
 ##What type of projects are they suitable for?
-ANyone who runs a smaller blog, businesses willing to keep up to date with customers, magazines and TV-stations. They
+Anyone who runs a smaller blog, businesses willing to keep up to date with customers, magazines and TV-stations. They
  only limit I can see, which is one of its major upsides, is the lack of a database. Fora very heavy Wordpress or 
  Drupal site with thousands of posts my uneducated guess is... perhaps not. Let it grow - if that is what it 
  wants to. 
@@ -37,7 +47,7 @@ ANyone who runs a smaller blog, businesses willing to keep up to date with custo
 ## What is humans.txt and how have you configure it for your site?
  Another text file with information on the website. Who made it? What team(s) were a part of the creation and when was the last update? Who gets credited and for what? How do I reach them and are they on Twitter? Is the geek behind the navigation system married to a cousin?
  It’s a way to humanize a site and get to know a bit more about the creators and what made the website possible
- besides frameworks, IDEs and whatnot. // TODO: How have I configured my oen
+ besides frameworks, IDEs and whatnot.
 
 ## How did you implements comments to blog posts
 
