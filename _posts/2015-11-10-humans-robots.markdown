@@ -9,15 +9,20 @@ categories: techie talk
 ... This here piece of text is about the humans.txt, robots. and a few other answers I'll answer as this work develops.
 But lets start with the always entertaining robots.
 ##What do you think of pre-compiling your CSS?
-TODO     
+Quite cumnersome to set up for me, but when it works is a stellar piecfe of software.    
 ## Compare to regular CSS
-TODO
+I like DRY and when writing §500 lines of css you tend to get bored writing the same syntax.
+
 ## Which techniques did you use?
-/TODO:
+Just added a few variable like "$font-stack"vagrant ssh
+
 ## Pros and cons?
-TODO:
+No databaseses, lots of mixins and plugins. Cona? How do they handle larger sites and heavy traffic?
+All the pre-work may halter you from seeing the great stuff post-process.
+
+
 ##What do you think of static site generators?
-Todo
+Main advantage as I see it is there is no need for e database, and those can be tricky to learn, backup and update.
 
 ##What type of projects are they suitable for?
 ANyone who runs a smaller blog, businesses willing to keep up to date with customers, magazines and TV-stations. They
@@ -37,14 +42,18 @@ ANyone who runs a smaller blog, businesses willing to keep up to date with custo
 ## What is humans.txt and how have you configure it for your site?
  Another text file with information on the website. Who made it? What team(s) were a part of the creation and when was the last update? Who gets credited and for what? How do I reach them and are they on Twitter? Is the geek behind the navigation system married to a cousin?
  It’s a way to humanize a site and get to know a bit more about the creators and what made the website possible
- besides frameworks, IDEs and whatnot. // TODO: How have I configured my oen
+ besides frameworks, IDEs and whatnot. 
+ 
+ Mine was easy as I am alone on the project so just a little contact info and what was used in production.
 
 ## How did you implements comments to blog posts
 
-Shock! Disqus was the easiest artefact in the world to implement and run. It worked on the first try, and as far as I 
+Shock! Disqus was the easiest artifact in the world to implement and run. It worked on the first try, and as far as I 
 can tell, it runs smoothly. I tried a post and it's there. I had great help from Google.
 
 ## What is Open Graph and how do you make use of it?
+Open Graph is a way to integrate your contact with Facebook and receive a lot more readers and attention. I have 
+very little experience of it myself, but it'll come along.
 
 
 <div id="disqus_thread"></div>

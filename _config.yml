@@ -4,7 +4,7 @@ email: rh222ge@student.lnu.se
 description: Aassiduous webdev student residing in Sweden but with plans to
     move abroad. No cats. No kids. No dogs. But a beautiful girlfriend.
     Like learning new things and are at present exploring Jekyll, Vagrant and more JS.
-baseurl: "localhost:4000" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://roberthoog.se" # the base hostname & protocol for your site
 twitter_username: roberthoog1975
 github_username: roberthoog

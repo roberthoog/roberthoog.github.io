@@ -1,30 +1,29 @@
-/** color scheme
-BG: HEX: #95c6ff
-HEX: #b195ff
-HEX: #95ffce
-R: 149  G: 255  B: 206
-**/
 
 /**
  * Site header
  */
 * {;
 }
-header.site-header {
+.site-header {
+
+    -moz-background-size: cover;
+    -o-background-size: cover;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 350px;
+    min-height: 551px;
     width:100%;
-    background-position: cover;
-    background: url("/img/header.bg");
-   }
+    background: url(../img/mv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
 
 .site-title {
     font-family: $font-stack;
-    float: right;
+    float: left;
 }
 
 .site-nav {
-    float: left;
+    float: right;
     display: inline;
 
     .menu-icon {
@@ -169,7 +168,7 @@ header.site-header {
 .page-content {
     //padding: $spacing-unit 0;
     padding: 0 10px 10px 10px;
-    font-family: $font-stack
+    font-family: $font-stack;
 
 }
 .page-heading {
@@ -183,7 +182,7 @@ header.site-header {
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit / 2;
     }
 }
 
